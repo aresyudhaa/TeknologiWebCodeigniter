@@ -8,6 +8,7 @@ Kelompok
 - Abdul Aziz Ashiddiqie_172101887
 - Daleano Rindo Talindo_172101822
 - Septa Irsandry_172101899
+- Natalis Alvin_172101861
 
 # Buat Commit setiap ngubah coding 
 
