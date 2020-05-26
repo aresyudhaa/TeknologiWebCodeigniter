@@ -9,6 +9,7 @@ Kelompok
 - Daleano Rindo Talindo_172101822
 - Septa Irsandry_172101899
 - Immanuel Abel Belare' Lirung_172101797
+- Natalis Alvin_172101861
 
 # Buat Commit setiap ngubah coding 
 
