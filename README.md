@@ -1,4 +1,5 @@
-# TeknologiWebCodeigniter
+# nama Folder onlinebookstore
+# database onlinebook
 
 Kelompok
 
@@ -14,3 +15,5 @@ Kelompok
 # Buat Commit setiap ngubah coding 
 
 # Kasi Keterangan dikoding kalo ngubah (#keterangan)
+
+
