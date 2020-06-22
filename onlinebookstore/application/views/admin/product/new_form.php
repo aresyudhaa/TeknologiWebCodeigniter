@@ -32,7 +32,7 @@
 
 						<form action="<?php echo site_url('admin/products/add') ?>" method="post" enctype="multipart/form-data" >
 							<div class="form-group">
-								<label for="name">Name*</label>
+								<label for="name">Book Tittle*</label>
 								<input class="form-control <?php echo form_error('name') ? 'is-invalid':'' ?>"
 								 type="text" name="name" placeholder="Product name" />
 								<div class="invalid-feedback">

@@ -29,7 +29,7 @@
 							<table class="table table-hover" id="dataTable" width="100%" cellspacing="0">
 								<thead>
 									<tr>
-										<th>Name</th>
+										<th>Book Tittle</th>
 										<th>Price</th>
 										<th>Photo</th>
 										<th>Description</th>
