@@ -1,6 +1,7 @@
 # nama Folder onlinebookstore
 # database onlinebook
-# Update login admin (22-06-2020) (aresyudha)
+# Login Page http://localhost/onlinebookstore/index.php/admin/login
+
 
 Kelompok
 
@@ -12,9 +13,5 @@ Kelompok
 - Septa Irsandry_172101899
 - Immanuel Abel Belare' Lirung_172101797
 - Natalis Alvin_172101861
-
-# Buat Commit setiap ngubah coding 
-
-# Kasi Keterangan dikoding kalo ngubah (#keterangan)
 
 
