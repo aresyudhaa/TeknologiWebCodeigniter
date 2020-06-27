@@ -1,6 +1,8 @@
 # nama Folder onlinebookstore
 # database onlinebook
 # Login Page http://localhost/onlinebookstore/index.php/admin/login
+  Id Login : kelompok
+  Password : 123
 
 
 Kelompok
