@@ -1,8 +1,8 @@
 # nama Folder onlinebookstore
 # database onlinebook
 # Login Page http://localhost/onlinebookstore/index.php/admin/login
-Id : kelompok
-pass : 123
+  Id Login : kelompok
+  Password : 123
 
 
 Kelompok
@@ -15,5 +15,4 @@ Kelompok
 - Septa Irsandry_172101899
 - Immanuel Abel Belare' Lirung_172101797
 - Natalis Alvin_172101861
-
 
