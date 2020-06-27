@@ -52,17 +52,17 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #fff;
-  background: rgba(52, 58, 64, 0.5);
+  color: #00FFFF;
+  background: #00FFFF;
   line-height: 46px;
 }
 
 .scroll-to-top:focus, .scroll-to-top:hover {
-  color: white;
+  color: #00FFFF;
 }
 
 .scroll-to-top:hover {
-  background: #343a40;
+  background: #00FFFF;
 }
 
 .scroll-to-top i {
@@ -90,7 +90,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 .navbar-nav .nav-item.active .nav-link {
-  color: #fff;
+  color: #00FFFF;
 }
 
 .navbar-nav .nav-item.dropdown .dropdown-toggle::after {
@@ -132,7 +132,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 
 .sidebar {
   width: 90px !important;
-  background-color: #212529;
+  background-color:#000000;
   min-height: calc(100vh - 56px);
 }
 
@@ -169,7 +169,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 .sidebar .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: #00FFFF;
 }
 
 .sidebar .nav-item .nav-link:active, .sidebar .nav-item .nav-link:focus, .sidebar .nav-item .nav-link:hover {
@@ -306,7 +306,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   margin-bottom: 0;
   /* Override default `<label>` margin */
   line-height: 1.5;
-  color: #495057;
+  color: #00FFFF;
   border: 1px solid transparent;
   border-radius: 0.25rem;
   -webkit-transition: all 0.1s ease-in-out;
@@ -338,7 +338,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   padding-top: calc(var(--input-padding-y) / 3);
   padding-bottom: calc(var(--input-padding-y) / 3);
   font-size: 12px;
-  color: #777;
+  color: #00FFFF;
 }
 
 footer.sticky-footer {
@@ -350,7 +350,7 @@ footer.sticky-footer {
   bottom: 0;
   width: calc(100% - 90px);
   height: 80px;
-  background-color: #e9ecef;
+  background-color: #00FFFF;
 }
 
 footer.sticky-footer .copyright {

@@ -30,9 +30,10 @@
 								<thead>
 									<tr>
 										<th>Book Tittle</th>
+										<th>Writer</th>
 										<th>Price</th>
-										<th>Photo</th>
-										<th>Description</th>
+										<th>Book Cover</th>
+										<th>Synopsis</th>
 										<th>Action</th>
 									</tr>
 								</thead>
@@ -42,8 +43,12 @@
 										<td width="150">
 											<?php echo $product->name ?>
 										</td>
+										<td width="150">
+											<?php echo $product->writer ?>
+										</td>
 										<td>
-											<?php echo $product->price ?>
+
+										<h8>Rp.</h8><?php echo $product->price ?>
 										</td>
 										<td>
 											<img src="<?php echo base_url('upload/product/'.$product->image) ?>" width="64" />

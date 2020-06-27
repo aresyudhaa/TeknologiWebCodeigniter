@@ -6,6 +6,7 @@ class Product_model extends CI_Model
 
     public $product_id;
     public $name;
+    public $writer;
     public $price;
     public $image = "default.jpg";
     public $description;
@@ -17,12 +18,16 @@ class Product_model extends CI_Model
             'label' => 'Name',
             'rules' => 'required'],
 
+            ['field' => 'writer',
+            'label' => 'Writer Name',
+            'rules' => 'required'],
+
             ['field' => 'price',
             'label' => 'Price',
             'rules' => 'numeric'],
             
             ['field' => 'description',
-            'label' => 'Description',
+            'label' => 'Book Synopsis',
             'rules' => 'required']
         ];
     }
@@ -42,6 +47,7 @@ class Product_model extends CI_Model
         $post = $this->input->post();
         $this->product_id = uniqid();
         $this->name = $post["name"];
+        $this->writer = $post["writer"];
         $this->price = $post["price"];
 
         if (!empty($_FILES["image"]["name"])) {
@@ -59,6 +65,7 @@ class Product_model extends CI_Model
         $post = $this->input->post();
         $this->product_id = $post["id"];
         $this->name = $post["name"];
+        $this->writer = $post["writer"];
         $this->price = $post["price"];
 
         if (!empty($_FILES["image"]["name"])) {

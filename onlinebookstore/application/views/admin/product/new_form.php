@@ -41,6 +41,15 @@
 							</div>
 
 							<div class="form-group">
+								<label for="name">Book Writer*</label>
+								<input class="form-control <?php echo form_error('writer') ? 'is-invalid':'' ?>"
+								 type="text" name="writer" placeholder="Book Writer" />
+								<div class="invalid-feedback">
+									<?php echo form_error('writer') ?>
+								</div>
+							</div>
+
+							<div class="form-group">
 								<label for="price">Price*</label>
 								<input class="form-control <?php echo form_error('price') ? 'is-invalid':'' ?>"
 								 type="number" name="price" min="0" placeholder="Product price" />
@@ -51,7 +60,7 @@
 
 
 							<div class="form-group">
-								<label for="name">Photo</label>
+								<label for="name">Book Cover</label>
 								<input class="form-control-file <?php echo form_error('price') ? 'is-invalid':'' ?>"
 								 type="file" name="image" />
 								<div class="invalid-feedback">
@@ -60,9 +69,9 @@
 							</div>
 
 							<div class="form-group">
-								<label for="name">Description*</label>
+								<label for="name">Synopsis*</label>
 								<textarea class="form-control <?php echo form_error('description') ? 'is-invalid':'' ?>"
-								 name="description" placeholder="Product description..."></textarea>
+								 name="description" placeholder="Book Synopsis..."></textarea>
 								<div class="invalid-feedback">
 									<?php echo form_error('description') ?>
 								</div>
