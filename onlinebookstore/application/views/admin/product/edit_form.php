@@ -42,16 +42,25 @@
 							<div class="form-group">
 								<label for="name">Book Tittle*</label>
 								<input class="form-control <?php echo form_error('name') ? 'is-invalid':'' ?>"
-								 type="text" name="name" placeholder="Product name" value="<?php echo $product->name ?>" />
+								 type="text" name="name" placeholder="Product name" />
 								<div class="invalid-feedback">
 									<?php echo form_error('name') ?>
 								</div>
 							</div>
 
 							<div class="form-group">
-								<label for="price">Price</label>
+								<label for="name">Book Writer*</label>
+								<input class="form-control <?php echo form_error('writer') ? 'is-invalid':'' ?>"
+								 type="text" name="writer" placeholder="Book Writer" />
+								<div class="invalid-feedback">
+									<?php echo form_error('writer') ?>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="price">Price*</label>
 								<input class="form-control <?php echo form_error('price') ? 'is-invalid':'' ?>"
-								 type="number" name="price" min="0" placeholder="Product price" value="<?php echo $product->price ?>" />
+								 type="number" name="price" min="0" placeholder="Product price" />
 								<div class="invalid-feedback">
 									<?php echo form_error('price') ?>
 								</div>
@@ -59,19 +68,18 @@
 
 
 							<div class="form-group">
-								<label for="name">Photo</label>
-								<input class="form-control-file <?php echo form_error('image') ? 'is-invalid':'' ?>"
+								<label for="name">Book Cover</label>
+								<input class="form-control-file <?php echo form_error('price') ? 'is-invalid':'' ?>"
 								 type="file" name="image" />
-								<input type="hidden" name="old_image" value="<?php echo $product->image ?>" />
 								<div class="invalid-feedback">
 									<?php echo form_error('image') ?>
 								</div>
 							</div>
 
 							<div class="form-group">
-								<label for="name">Description*</label>
+								<label for="name">Synopsis*</label>
 								<textarea class="form-control <?php echo form_error('description') ? 'is-invalid':'' ?>"
-								 name="description" placeholder="Product description..."><?php echo $product->description ?></textarea>
+								 name="description" placeholder="Book Synopsis..."></textarea>
 								<div class="invalid-feedback">
 									<?php echo form_error('description') ?>
 								</div>

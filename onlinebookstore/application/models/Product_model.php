@@ -63,11 +63,11 @@ class Product_model extends CI_Model
     public function update()
     {
         $post = $this->input->post();
-        $this->product_id = $post["id"];
+        $this->product_id = uniqid();
         $this->name = $post["name"];
         $this->writer = $post["writer"];
         $this->price = $post["price"];
-
+        
         if (!empty($_FILES["image"]["name"])) {
             $this->image = $this->_uploadImage();
         } else {
